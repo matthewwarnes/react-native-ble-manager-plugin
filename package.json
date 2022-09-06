@@ -1,5 +1,5 @@
 {
-  "name": "matthewwarnes/react-native-ble-manager-plugin",
+  "name": "@matthewwarnes/react-native-ble-manager-plugin",
   "version": "1.0.0",
   "description": "Config plugin to auto configure react-native-ble-manager on prebuild",
   "main": "build/withBLE.js",
@@ -33,6 +33,7 @@
     "expo": "^46.0.2"
   },
   "devDependencies": {
-    "expo-module-scripts": "^2.0.0"
+    "expo-cli": "^6.0.5",
+    "expo-module-scripts": "^2.1.1"
   }
 }

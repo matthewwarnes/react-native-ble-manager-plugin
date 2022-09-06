@@ -38,6 +38,7 @@ const withBLE: ConfigPlugin<
     "android.permission.BLUETOOTH",
     "android.permission.BLUETOOTH_ADMIN",
     "android.permission.BLUETOOTH_CONNECT", // since Android SDK 31
+    "android.permission.BLUETOOTH_SCAN",
   ]);
   config = withBLEAndroidManifest(config, {
     isBackgroundEnabled,

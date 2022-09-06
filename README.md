@@ -12,7 +12,7 @@ Config plugin to auto-configure `react-native-ble-manager` when the native code 
 > First install the package with yarn, npm, or [`expo install`](https://docs.expo.io/workflow/expo-cli/#expo-install).
 
 ```sh
-expo install react-native-ble-manager matthewwarnes/react-native-ble-manager-plugin
+expo install react-native-ble-manager @matthewwarnes/react-native-ble-manager-plugin
 ```
 
 After installing this npm package, add the [config plugin](https://docs.expo.io/guides/config-plugins/) to the [`plugins`](https://docs.expo.io/versions/latest/config/app/#plugins) array of your `app.json` or `app.config.js`:
@@ -20,7 +20,7 @@ After installing this npm package, add the [config plugin](https://docs.expo.io/
 ```json
 {
   "expo": {
-    "plugins": ["matthewwarnes/react-native-ble-manager-plugin"]
+    "plugins": ["@matthewwarnes/react-native-ble-manager-plugin"]
   }
 }
 ```
@@ -44,7 +44,7 @@ The plugin provides props for extra customization. Every time you change the pro
   "expo": {
     "plugins": [
       [
-        "matthewwarnes/react-native-ble-manager-plugin",
+        "@matthewwarnes/react-native-ble-manager-plugin",
         {
           "isBackgroundEnabled": true,
           "modes": ["peripheral", "central"],
